@@ -1,0 +1,68 @@
+/*section#1*/
+.section-bg {
+	background-color: #E6E6E6;
+}
+.container {
+	width: 1170px;
+/*	margin-left: auto;
+	margin-right: auto;*/
+	margin: 0 auto;
+}
+.left-block {
+	float: left;
+	background-color: #F2F2F2;
+	width: 570px;
+	margin-right: 29px;
+	padding: 13px;
+}
+.right-block {
+	float: left;
+	background-color: #F2F2F2;
+	width: 570px;
+	padding: 13px;
+}
+.clear {
+	clear: both;
+}
+.article-image {
+	float: left;
+}
+.article-text {
+	float: right;
+	width: 355px;
+}
+.read {
+	float: right;
+	margin-right: 30px;
+}
+.article-wraper::after {
+	content: ' ';
+	clear: left;
+	display: block;
+}
+.mshobeli::after {
+	content: ' ';
+	clear: both;
+	display: block;
+}
+/*pseudo elements*/
+.test1::before {
+	content: ' \26D4';
+}
+
+.test1::after {
+	content: url('../img/smiley.gif');
+	
+}
+
+
+
+.divider {
+	width: 2px;
+	height: 27px;
+	background-color: blue;
+	display: inline-block;
+}
+.test1 {
+	display: inline-block;
+}
